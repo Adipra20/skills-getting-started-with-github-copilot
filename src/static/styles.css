@@ -102,6 +102,10 @@ section h3 {
   padding: 2px 0;
 }
 
+.participants li span {
+  overflow-wrap: anywhere;
+}
+
 .delete-participant {
   flex: 0 0 auto;
   padding: 2px 5px;
