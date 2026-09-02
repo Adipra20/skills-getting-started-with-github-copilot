@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
           <div class="participants">
             <h5>Participants</h5>
-            <ul>${participants}</ul>
+            <ul aria-live="polite">${participants}</ul>
           </div>
         `;
 
