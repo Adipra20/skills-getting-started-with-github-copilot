@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error unregistering participant:", error);
     }
   });
-
+ 
   // Initialize app
   fetchActivities();
 });
